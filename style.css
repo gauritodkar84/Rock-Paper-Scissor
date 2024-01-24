@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #D7EBBA;
+}
+
+h1{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #231F20;
+    line-height: 5rem; /* text comes vertically center */
+}
+
+.choices{
+    margin: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice{
+    height: 165px;
+    width:165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    /*opacity: 0.5;  to blur the image by 50%  */
+    background-color: black; /* gives a round border */
+    
+}
+
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;  
+    font-size: 2rem;      
+    font-family: Arial, Helvetica, sans-serif;    /* it gives space between two div tags */
+}
+
+#you_score, #comp_score{
+    font-size: 4rem;
+    padding: 4px;
+    display: inline;
+}
+
+.msgcontainer{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#msg{
+    display: inline;
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.restart_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rebtn{
+    background-color: #8FC93A;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px green solid;
+}

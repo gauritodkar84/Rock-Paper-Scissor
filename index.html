@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissors</h1>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="./images/scisor.png">
+        </div>
+    </div>
+
+    <div class="score_board">
+        <div class="score">
+            <p id="you_score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp_score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <div class="msgcontainer">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <div class="restart_btn">
+        <button id="rebtn">Restart</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
